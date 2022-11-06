@@ -1,0 +1,23 @@
+
+/*variables css*/
+:root{
+    --body-black: #000;
+    --body-white: #fff;
+    --text-black: #000;
+    --text-white: #fff;
+}
+
+body{
+    background-color: var(--body-white);
+}
+header{
+    padding: 5px;
+    background: red;
+}
+.profile_container{
+    width: 80%;
+    margin: auto;
+}
+picture img{
+    float: left;
+}
