@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
 
 /*variables css*/
 :root{
@@ -5,19 +6,83 @@
     --body-white: #fff;
     --text-black: #000;
     --text-white: #fff;
+    --bg-grey: #18181aa1;
+    --text-grey: #555557;
+    --primary-color: #ff7613;
+    --secondary-color: #16a5f7;
 }
 
-body{
-    background-color: var(--body-white);
+/*large, main sections*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+html{
+    font-size: 15px;
+    font-family: Raleway, sans-serif;
+    color: var(--primary-color);
+    background-color: var(--body-black);
+}
+
+/*layouts*/
 header{
-    padding: 5px;
-    background: red;
+    padding: 15px;
 }
 .profile_container{
-    width: 80%;
+    max-width: 1000px;
+    width: 90%;
     margin: auto;
+    background: var(--bg-grey);
+    padding: 10px;
+    display: table;
 }
 picture img{
     float: left;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin-right: 20px;
+}
+.first_name{
+    color: var(--body-white);
+    font-size: 35px;
+    display: block;
+}
+.last_name{
+    color: var(--primary-color);
+    font-size: 50px;
+    display: block;
+}
+.profile_description{
+    color: var(--secondary-color);
+    display: block;
+    font-size: 18px;
+}
+p{
+    color: var(--text-grey);
+    display: block;
+    margin-left: 25%;
+    padding: 10px;
+}
+.download_btn{
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text-white);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px var(--body-white);
+}
+.download_btn:hover{
+    background-color: var(--primary-color);
+}
+.download_btn:active{
+    background-color: var(--secondary-color);
+    box-shadow: 0 1px var(--body-white);
+    transform: translateY(5px);
 }
