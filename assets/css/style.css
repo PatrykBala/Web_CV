@@ -116,9 +116,12 @@ footer{
     text-decoration: none;
     color: var(--secondary-color);
 }
-.footer_container ul a i{
+.footer_container ul i{
     margin-right: 10px;
     color: var(--secondary-color);
+    border: 1px solid var(--body-white);
+    padding: 7px;
+    border-radius: 20%;
 }
 .footer_container h3{
     font-size: 25px;
