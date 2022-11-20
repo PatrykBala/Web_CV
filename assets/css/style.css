@@ -25,6 +25,20 @@ html{
     background-color: var(--body-black);
 }
 
+nav{
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    display: table;
+    margin-bottom: 15px;
+    background: var(--bg-grey);
+}
+.section_nav{
+    display: flex;
+}
+
 /*layouts*/
 header{
     padding: 15px;
