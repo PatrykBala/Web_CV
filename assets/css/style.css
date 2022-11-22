@@ -98,21 +98,21 @@ nav{
     margin-bottom: 15px;
     background: var(--bg-grey);
 }
-nav .section_nav{
+nav .navigation_container{
     display: flex;
 }
-nav .section_nav .navigation{
+nav .navigation_container .navigation{
     list-style-type: none;
     display: flex;
 }
-nav .section_nav .navigation li a{
+nav .navigation_container .navigation li a{
     text-decoration: none;
     border: 1.5px solid var(--secondary-color);
     border-radius: 10%;
     padding: 5px;
     margin-right: 3px;
 }
-nav .section_nav .navigation li a i{
+nav .navigation_container .navigation li a i{
     color: var(--primary-color);
     padding: 10px;
     margin-right: 60px;
@@ -179,4 +179,45 @@ footer .surname{
     color: var(--primary-color);
     text-decoration: none;
     font-style: normal;
+}
+
+/*footer email*/
+footer .footer_email{
+    display: flex;
+}
+footer h4{
+    width: 20%;
+    font-size: 1em;
+    color: var(--secondary-color);
+}
+footer input{
+    font-size: 1em;
+    padding: 3px;
+    margin: 0 10px;
+    width: 100%;
+}
+footer button{
+    font-size: 1em;
+    padding: 3px;
+    margin: 0 10px;
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-white);
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 15px;
+}
+
+/*section*/
+section{
+    display: table;
+    max-width: 10000px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 10px;
+    background: var(--bg-grey);
 }
